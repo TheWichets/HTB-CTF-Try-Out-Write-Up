@@ -7,17 +7,20 @@ Sử dụng _binwalk -e_ trong terminal để giải nén file chal_router_dump.
 >What version of OpenWRT runs on the router
 
 Vào **/squashfs-root/etc** mở file banner lên sẽ thấy phiên bản của OpenWRT
+
 <img width="439" height="167" alt="image" src="https://github.com/user-attachments/assets/806ab9ec-7fa3-4124-a680-e2e9a3dbbade" />
 
 >What is the Linux kernel version
 
 Chạy _binwalk_ với file .bin ban đầu là nó sẽ nói cho mình phiên bản của Linux luôn. Ở đây là 5.15.134
+
 <img width="1899" height="34" alt="image" src="https://github.com/user-attachments/assets/7647c6ae-e223-417a-a7b5-118c513c396f" />
 
 >What's the hash of the root account's password, enter the whole line
 
 Để tìm password hash thì phải vào phân vùng **overlay** định dạng JFFS2 vì đây là phân vùng chứa config của router này
 Ở đấy hash password sẽ tìm được trong **/work/work/#32**
+
 <img width="480" height="184" alt="image" src="https://github.com/user-attachments/assets/f5033f74-7070-4c61-aefc-377df107e4ba" />
 
 >What is the PPPoE username
