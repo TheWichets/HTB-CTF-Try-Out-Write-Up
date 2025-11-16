@@ -35,7 +35,7 @@ Ta thấy có 1 lựa chọn secret: **Blip-blop, in a pickle with a hiccup! Shm
 
 <img width="2554" height="718" alt="Image" src="https://github.com/user-attachments/assets/7df32c2e-0817-4236-8c29-9c53efbfb28b" />
 
-Flag là **HTB{D3v3l0p3r_t00l5_4r3_b35t_wh4t_y0u_Th1nk??!_cfe55f71e8e47c2a2529a899e503e9d6}**
+Flag: **HTB{D3v3l0p3r_t00l5_4r3_b35t_wh4t_y0u_Th1nk??!_cfe55f71e8e47c2a2529a899e503e9d6}**
 
 
 
