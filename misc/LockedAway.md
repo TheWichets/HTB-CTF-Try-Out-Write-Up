@@ -2,7 +2,7 @@ Mở đầu ta sẽ tải file về và giải nén như bình thường
 
 Sau khi kiểm tra các file ở đầu thì thấy được không có gì quá quan trọng
 
-Vào file challenge sẽ thấy 1 file tên là flag.txt và rõ ràng là 1 fake flag
+Vào folder challenge sẽ thấy 1 file tên là flag.txt và rõ ràng là 1 fake flag
 
 Tiếp theo ta check file main.py thì thấy có thể biết được nhiệm vụ là chạy hàm open\_chest
 
