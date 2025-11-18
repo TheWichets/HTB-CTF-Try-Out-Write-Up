@@ -19,7 +19,7 @@ Thay vì nhập tay câu trả lời thì ta có thể viết 1 đoạn script �
 Mình dùng thư viện **pwn** của **Python**. Có thể tải xuống bằng bằng cách: **sudo apt install python3-pwntools**
 
 ### Dưới đây là đoạn script để giải bài này
-'''
+```
 !/usr/bin/python3
 
 from pwn import *
@@ -52,7 +52,7 @@ while True:
         response = b'-'.join(instructions)
 
         r.sendline(response)
- '''
+ ```
  ### Cách dùng: python3 {filename}.py
 
  Sau khi code chạy xong ta sẽ có flag
