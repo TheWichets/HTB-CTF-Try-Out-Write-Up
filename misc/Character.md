@@ -36,7 +36,7 @@ context.log_level = 'debug'
 
 flag = ""
 
-r = remote('83.136.253.5', 59517)
+r = remote('IP', PORT) // Thay bằng IP và PORT được cấp
 
 for i in range(0, 150):
         r.recvuntil(b'Which character (index) of the flag do you want? Enter an index:' )
